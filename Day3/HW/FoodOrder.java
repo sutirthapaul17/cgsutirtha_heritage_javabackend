@@ -1,16 +1,12 @@
 package HW;
-
 import java.util.Scanner;
-
 public class FoodOrder {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         System.out.println("Menu");
         System.out.println("1. Burger");
         System.out.println("2. Pizza");
         System.out.println("3. Sandwich");
-
         System.out.print("Enter your choice: ");
         int choice = sc.nextInt();
 
