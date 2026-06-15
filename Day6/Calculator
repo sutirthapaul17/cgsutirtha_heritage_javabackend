@@ -1,0 +1,41 @@
+public class Calculator { 
+    int add(int a, int b) { 
+
+        System.out.println("Calling: add(int, int)"); 
+        return a + b; 
+
+    } 
+
+  
+
+    // Version 2: three int parameters (different COUNT) 
+
+    int add(int a, int b, int c) { 
+
+        System.out.println("Calling: add(int, int, int)"); 
+        return a + b + c; 
+
+    } 
+
+  
+
+    // Version 3: two double parameters (different TYPE) 
+    double add(double a, double b) { 
+
+        System.out.println("Calling: add(double, double)"); 
+        return a + b; 
+
+    } 
+
+  
+
+    public static void main(String[] args) { 
+
+        Calculator calc = new Calculator(); 
+        System.out.println("Result: " + calc.add(5, 10));         // -> Version 1 
+        System.out.println("Result: " + calc.add(5, 10, 15));     // -> Version 2 
+        System.out.println("Result: " + calc.add(5.5, 2.5));      // -> Version 3 
+
+    } 
+
+} 
