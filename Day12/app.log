@@ -1,0 +1,4 @@
+[2026-06-23 05:14:31] [INFO] Server started on port 8080
+[2026-06-23 05:14:31] [INFO] User 'admin' logged in
+[2026-06-23 05:14:31] [WARN] High memory usage detected: 85%
+[2026-06-23 05:14:31] [ERROR] Database connection pool exhausted

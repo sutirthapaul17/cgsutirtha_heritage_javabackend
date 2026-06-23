@@ -1,0 +1,6 @@
+Region,Product,Units Sold,Revenue
+North,Laptop,120,750000
+South,Mobile,200,500000
+East,Tablet,150,300000
+West,Monitor,80,160000
+Central,Keyboard,300,90000
